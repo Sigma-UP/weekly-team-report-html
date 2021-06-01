@@ -20,3 +20,8 @@ html, body{
     // height: $launch-guide-item-img-height;
     height: 30px;
 }
+
+html, body{
+    //may cause troubless
+    height: 100%;
+}

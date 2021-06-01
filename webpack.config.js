@@ -28,9 +28,13 @@ const config = {
       template: "./src/page/launch-guide.html",
     }),
     new HtmlWebpackPlugin({
+      filename: "invitation.html",
+      template: "./src/page/invitation.html",
+    }),
+    new HtmlWebpackPlugin({
       filename: "aside.html",
       template: "./src/components/aside.html",
-    }),
+    })
     // Add your plugins here
     // Learn more about plugins from https://webpack.js.org/configuration/plugins/
   ],
