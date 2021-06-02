@@ -1,17 +1,23 @@
-.btn-lg{
+.btn-lg {
     font-weight: $btn-font-weight-lg;
 }
-.btn-link{
+.btn-link {
     font-weight: $btn-font-weight-link;
 }
-.btn-link:hover{
+.btn-link:hover {
     border: 1px $btn-link-border-color solid;
-}   
+}
 
-.item-yellow{
+.item-yellow {
     color: $btn-link-addit-color;
 }
-.item-yellow:hover{
+.item-yellow:hover {
     color: $btn-link-addit-hover-color;
     border: 1px $btn-link-addit-border-color solid;
+}
+
+.btn-feedback {
+    transform: rotate(-90deg);
+    right: -2rem;
+    background-color: $blue-feedback;
 }

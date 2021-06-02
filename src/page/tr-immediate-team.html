@@ -7,43 +7,50 @@
 </head>
 
 <body>
-
-    <!-- Side nav panel. -->
     <div>
-        ${require("/src/components/aside.html")}
+        ${require("/src/components/nav-top.html")}
     </div>
-    <!-- Header. -->
-    <div class="page-header">
-        <!-- Choose team -->
-        <!-- Team members -->
-        <h2>Your team has not submitted reports this week.</h2>
-    </div>
-
-    <!-- Main content. -->
-    <!-- WIP -->
-    <div>
-        <!-- Choose Period -->
+    
+    <div class="h-100 d-flex">
+        <!-- Side nav panel. -->
         <div>
-            <div class="btn-group" role="group" aria-label="Period">
-                <button type="button" class="btn btn-primary active">Previous Period: </button>
-                <button type="button" class="btn btn-primary">Current Period: </button>
-                <button type="button" class="btn btn-primary">Older Reports</button>
-              </div>
+            ${require("/src/components/aside.html")}
         </div>
-        <div>
-            <h3>IMMEDIATE TEAM</h3>
-        <img class="line" src="/src/img/yellow-line.png">
-            
-        </div> 
-        <!-- Team members list -->
-        <div>
-            <button>EXPAND</button>
+        <div class="flex-grow-1">
+            <!-- Header. -->
+            <div class="">
+                <!-- Choose team -->
+                <!-- Team members -->
+                <h2>Your team has not submitted reports this week.</h2>
+            </div>
+
+            <!-- Main content. -->
+            <!-- WIP -->
             <div>
-                <!-- Member status head -->
-                <!-- Member status body -->
+                <!-- Choose Period -->
+                <div>
+                    <div class="btn-group" role="group" aria-label="Period">
+                        <button type="button" class="btn btn-primary active">Previous Period: </button>
+                        <button type="button" class="btn btn-primary">Current Period: </button>
+                        <button type="button" class="btn btn-primary">Older Reports</button>
+                        </div>
+                </div>
+                <div>
+                    <h3>IMMEDIATE TEAM</h3>
+                <img class="line" src="/src/img/yellow-line.png">
+                    
+                </div> 
+                <!-- Team members list -->
+                <div>
+                    <button>EXPAND</button>
+                    <div>
+                        <!-- Member status head -->
+                        <!-- Member status body -->
+                    </div>
+                </div>
             </div>
         </div>
-    </div>  
+    </div>
 </body>
 
 </html>
